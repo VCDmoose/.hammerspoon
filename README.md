@@ -1,5 +1,5 @@
 # .hammerspoon
-init.lua file should be in:
+init.lua file location:
 `~/.hammerspoon/init.lua`
 
 `cd ~`
