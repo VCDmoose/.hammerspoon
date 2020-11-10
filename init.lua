@@ -6,6 +6,21 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
     hs.application.launchOrFocus("IntelliJ IDEA")
   end)
 
+hs.hotkey.bind({"alt", "ctrl"}, "Left", function()
+    local screen = hs.mouse.getCurrentScreen()
+    local nextScreen = screen:next()
+    local rect = nextScreen:fullFrame()
+    local center = hs.geometry.rectMidPoint(rect)
+hs.mouse.setAbsolutePosition(center)
+end)
+
+hs.hotkey.bind({"alt", "ctrl"}, "Right", function()
+    local screen = hs.mouse.getCurrentScreen()
+    local nextScreen = screen:next()
+    local rect = nextScreen:fullFrame()
+    local center = hs.geometry.rectMidPoint(rect)
+hs.mouse.setAbsolutePosition(center)
+end)
 
 function reloadConfig(files)
     doReload = false
