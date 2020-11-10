@@ -1,3 +1,12 @@
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function()
+    hs.application.launchOrFocus("iTerm")
+  end)
+
+  hs.hotkey.bind({"cmd", "alt", "ctrl"}, "I", function()
+    hs.application.launchOrFocus("IntelliJ IDEA")
+  end)
+
+
 function reloadConfig(files)
     doReload = false
     for _,file in pairs(files) do
@@ -10,4 +19,5 @@ function reloadConfig(files)
     end
 end
 myWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig):start()
+
 
