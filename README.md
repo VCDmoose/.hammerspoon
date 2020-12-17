@@ -26,3 +26,4 @@ mkdir Spoons
 - Open iTerm: `cmd + opt + crtl + T`
 - Switch mouse focus: `opt + crtl + <-` or  `opt + crtl + ->`
 - Reload config: auto
+- All shiftit commands: https://github.com/fikovnik/ShiftIt#user-guide
