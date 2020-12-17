@@ -27,5 +27,5 @@ mkdir Spoons
 - Switch mouse focus: `opt + crtl + <-` or  `opt + crtl + ->`
 - Reload config: auto
 - All shiftit commands: https://github.com/fikovnik/ShiftIt#user-guide
- - Next screen: ```ctrl(^) + alt(⌥) + cmd(⌘) + N```
- - Maximise: ```ctrl(^) + alt(⌥) + cmd(⌘) + M```
+  - Next screen: ```ctrl(^) + alt(⌥) + cmd(⌘) + N``` 
+  - Maximise: ```ctrl(^) + alt(⌥) + cmd(⌘) + M```
