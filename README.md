@@ -29,5 +29,8 @@ mkdir Spoons
 - Switch mouse focus: `opt + crtl + <-` or  `opt + crtl + ->`
 - Reload config: auto
 - All shiftit commands: https://github.com/fikovnik/ShiftIt#user-guide
-  - Next screen: ```ctrl(^) + alt(⌥) + cmd(⌘) + N``` 
+  - Move app to Next screen: ```ctrl(^) + alt(⌥) + cmd(⌘) + N``` 
   - Maximise: ```ctrl(^) + alt(⌥) + cmd(⌘) + M```
+  - Toggle FullScreen: ```ctrl(^) + alt(⌥) + cmd(⌘) + F```
+  
+  Full Screen needs to be toggled off before moving app between screens.
