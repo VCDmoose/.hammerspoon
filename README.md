@@ -22,8 +22,10 @@ mkdir Spoons
 
 ## Shortcuts
 
-- Open IntelliJ: `cmd + opt + crtl + I`
-- Open iTerm: `cmd + opt + crtl + T`
+- Open IntelliJ: `opt + crtl + I`
+- Open iTerm: `opt + crtl + T`
+- Open Firefox: `opt + crtl + F`
+- Open Chrome: `opt + crtl + C`
 - Switch mouse focus: `opt + crtl + <-` or  `opt + crtl + ->`
 - Reload config: auto
 - All shiftit commands: https://github.com/fikovnik/ShiftIt#user-guide
