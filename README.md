@@ -19,6 +19,11 @@ mkdir Spoons
 - Unzip and move shiftit spoon to ~/.hammerspoon/Spoons
 - Reload Hammerspoon
 
+- To configure shortcuts update the init.lua file
+```
+vi ~/.hammerspoon/init.lua
+```
+
 
 ## Shortcuts
 
